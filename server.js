@@ -38,17 +38,16 @@ harmony.use(session({
 }))
 
 //
-function IsAuthenticated(req, res, next) {
-    if (req.session.user) {
-      next();
-    } else {
-      return res.render('login', {ua:false, pm:false});
-    }
-  }
+// function IsAuthenticated(req, res, next) {
+ //   if (req.session.user) {
+ //     next();
+ ///   } else {
+ //     return res.render('login', {ua:false, pm:false});
+ //   }
+ // }
 // POST route from contact form
 
 harmony.get('/',async function(req,res){
-    
       res.render('index');
     })
 
