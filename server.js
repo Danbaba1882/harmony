@@ -51,6 +51,10 @@ harmony.get('/',async function(req,res){
       res.render('index');
     })
 
+    harmony.get('/contact-us', (req, res)=>{
+        res.render('contact')
+    })
+
 
 harmony.listen(process.env.PORT || 3000);
 console.log('Server listening at 127.0.0.1/3000');

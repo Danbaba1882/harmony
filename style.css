@@ -1033,6 +1033,7 @@ body {
     position: relative;
     text-align: center;
     top: -35px;
+    margin-top: 10px;
 }
 .overlay-effect a {position: relative}
 .overlay-effect a:before {
@@ -1118,6 +1119,7 @@ body {
     background: rgba(0, 0, 0, 0) url("img/banner/2.jpg") repeat scroll 0 0;
     color: #ffffff;
     padding: 100px 0;
+    margin-bottom: 70px;
 }
 .single-fun-factor {font-family: "montserratregular"; text-align: center;}
 .single-fun-factor > h4 {
@@ -2042,10 +2044,12 @@ span.comment-time {padding-right: 3px; position: relative;}
 .breadcrumb-banner-area {
     background: rgba(0, 0, 0, 0) url("img/banner/4.jpg") no-repeat scroll 0 0;
     color: #ffffff;
-    padding: 110px 0;
+    padding: 70px 0;
     position: relative;
+    margin-top: 70px;
 }
-.breadcrumb-banner-area.fixed-bg {background: url("img/slider/3.jpg") no-repeat fixed top center / cover}
+.breadcrumb-banner-area.fixed-bg {background: url("img/slider/3.jpg") no-repeat fixed top center / cover;
+}
 .breadcrumb-banner-area.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
 .breadcrumb-text {z-index: 9; position: relative;}
 .breadcrumb-banner-area:after {
@@ -2070,17 +2074,6 @@ span.comment-time {padding-right: 3px; position: relative;}
     text-transform: uppercase;
     position: relative;
     font-size: 36px
-}
-.breadcrumb-text h1:after {
-    background: #ffffff none repeat scroll 0 0;
-    bottom: 0;
-    content: "";
-    height: 29px;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    width: 2px;
 }
 .breadcrumb-bar li {
     color: #ffffff;
